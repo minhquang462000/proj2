@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "nmquang - admin",
+      "age": 19,
+      "email": "nmquang@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "name": "quangtety - user",
+      "age": 20,
+      "email": "quangtety@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Tiên hiệp truyện",
+      "category": "tien hiep",
+      "img": "https://thuthuatnhanh.com/wp-content/uploads/2020/09/hinh-anh-anime-co-trang.jpg",
+      "status": "done"
+    },
+    {
+      "id": 2,
+      "name": "Doraemon",
+      "category": "Drama",
+      "img": "https://i.pinimg.com/originals/00/1b/38/001b38c75ff267e0ede88d83b40673a0.jpg",
+      "status": "not done"
+    },
+    {
+      "id": 3,
+      "name": "Vương gia! Không nên a!",
+      "category": "Hậu cung",
+      "img": "https://cdn-4.ohay.tv/imgs/bc2fcc8d67874c289751/728.png",
+      "status": "done"
+    },
+    {
+      "id": 4,
+      "name": "Thần y đích nữ",
+      "category": "Cổ đại",
+      "img": "https://cdn-4.ohay.tv/imgs/8b236f4388ed4d889627/728.png",
+      "status": "not done"
+    },
+    {
+      "id": 5,
+      "name": " Đấu la đại lục",
+      "category": "Tiên hiệp",
+      "img": "https://photo-baomoi.bmcdn.me/w700_r1/2023_10_18_304_47257074/9291fb54cb1822467b09.jpg",
+      "status": "not done"
+    },
+    {
+      "id": 6,
+      "name": "Nhất sinh nhất thế mỹ nhân cốt",
+      "category": "Chuyển sinh",
+      "img": "https://cdn-4.ohay.tv/imgs/16b699378db94373b942/728.png",
+      "status": "not done"
+    },
+    {
+      "id": 7,
+      "name": "Nữ kiếm sư",
+      "category": "kiếm hiệp",
+      "img": "https://file.vfo.vn/hinh/2018/05/hinh-ve-tranh-ve-my-nhan-dep-nhat-my-nhan-co-trang-trung-quoc-4.png",
+      "status": "done"
+    },
+    {
+      "id": 8,
+      "name": "Thế giới hoàn mỹ",
+      "category": "Tiên hiệp",
+      "img": "https://hhhkungfu.tv/wp-content/uploads/2022/01/The-Gioi-Hoan-My.jpg",
+      "status": "not done"
+    },
+    {
+      "id": 9,
+      "name": "Quốc vận hôn phối",
+      "category": "16+",
+      "img": "http://img.faloo.com/Novel/498x705/1/1028/001028485.jpg",
+      "status": "done"
+    }
+  ]
+}
