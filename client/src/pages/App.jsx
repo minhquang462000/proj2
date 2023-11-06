@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react";
 import HeaderPage from "../component/HeaderPage";
-import Headernavbar from "../component/HeaderNavBar";
+import HeaderNavbar from "../component/HeaderNavBar";
 import Footer from "../component/Footer";
 import CardHot from "../component/CardHot";
 import TrendingList from "../component/TrendingList";
 import axios from "axios";
 import Loading from "../component/Loading";
-import { ChangeMode } from "../store/setting";
 import { useSelector } from "react-redux";
 function App() {
   const [productList, setProductList] = useState([]);
@@ -27,11 +26,11 @@ function App() {
       <div
         className={`w-screen ${
           darkMode ? "bg-gray-900" : "bg-violet-500"
-        } h-full  font-semibold text-white`}
+        } h-full  font-semibold text-white `}
       >
         <HeaderPage />
+        <HeaderNavbar />
         <div className="w-[1200px] m-auto ">
-          <Headernavbar />
           {isLoading ? (
             <Loading />
           ) : (

@@ -9,6 +9,7 @@ import { Provider } from "react-redux";
 import AdminPage from "./pages/AdminPage";
 import LoginPage from "./pages/Login";
 import CompletePage from "./pages/Complete";
+import LikePage from "./pages/likePage";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,6 +20,14 @@ const router = createBrowserRouter([
         element: <App />,
       },
       {
+        path: "/complete",
+        element: <CompletePage />,
+      },
+      {
+        path: "/yeuthich",
+        element: <LikePage />,
+      },
+      {
         path: "/admin",
         element: <AdminPage />,
       },
@@ -27,11 +36,8 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <LoginPage />,
-  },
-  {
-    path: "/complete",
-    element: <CompletePage />,
-  },
+  }
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
